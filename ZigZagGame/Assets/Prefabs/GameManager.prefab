@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8071595574056336970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8071595574056336969}
+  m_Layer: 0
+  m_Name: CreatePosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8071595574056336969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8071595574056336970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.11, y: -0.25, z: 8.324}
+  m_LocalScale: {x: 2, y: 1, z: 2}
+  m_Children: []
+  m_Father: {fileID: 8071595574773548014}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8071595574773548015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8071595574773548014}
+  - component: {fileID: 8071595574773548013}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8071595574773548014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8071595574773548015}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8071595574056336969}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8071595574773548013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8071595574773548015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09256a82962e7fb449ffef8f81fa70a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackPieceFoward: {fileID: 5155147708699696794, guid: aab012be3745e194c9ddf0598bf7ffc1, type: 3}
+  trackPieceSide: {fileID: 1839329925157379838, guid: 334984d5ddd83d1469f0194ccbb1122f, type: 3}
+  trackPieceTurnLeft: {fileID: 7153684143806999025, guid: da7d5161624c9a14091fa77038e82199, type: 3}
+  trackPieceTurnRight: {fileID: 2278716283895760205, guid: d1f443555da07a946a58f6d1d34b8235, type: 3}
+  createPos: {fileID: 8071595574056336970}
+  collectable: {fileID: 58343426478835261, guid: 00b4aad2e8efb174d8719d3e21538c00, type: 3}
+  timeToGenerate: 0
+  currentDirection: Foward
+  previousDirection: Foward
+  canCreateEmpty: 1
+  activateEmpty: 0
+  colorTimer: 10
+  colorType: 1
+  player: {fileID: 0}
+  alive: 1
+  level: 1
+  scoreValue: {fileID: 0}
+  distanceValue: {fileID: 0}
+  nextLevelDistance: 0
