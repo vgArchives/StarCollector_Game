@@ -13,12 +13,6 @@ public class TrackController : MonoBehaviour
         trackLight.EnableKeyword("_EMISSION");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void DestroyTrack()
     {
         Destroy(gameObject, 5f);
