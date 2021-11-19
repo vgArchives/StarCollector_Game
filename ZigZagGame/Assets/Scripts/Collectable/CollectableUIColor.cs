@@ -5,19 +5,7 @@ using UnityEngine;
 public class CollectableUIColor : MonoBehaviour
 {
     [SerializeField] private Renderer collectableLight;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     public void ChangeColor()
     {
         var colorType = FindObjectOfType<GameManager>().colorType;
