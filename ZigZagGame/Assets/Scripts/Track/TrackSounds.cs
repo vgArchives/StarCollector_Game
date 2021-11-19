@@ -30,5 +30,4 @@ public class TrackSounds : MonoBehaviour
             previousColorType = currentColorType;
         }
     }
-   
 }
