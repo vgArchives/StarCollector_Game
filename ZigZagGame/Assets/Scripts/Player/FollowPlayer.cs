@@ -16,12 +16,6 @@ public class FollowPlayer : MonoBehaviour
         distance = playerPos.position - transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void LateUpdate()
     {
         if(gameManager.alive) Follow();
