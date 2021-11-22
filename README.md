@@ -3,3 +3,7 @@
 Star Collector is a Endless Runner 3D with beautiful effects.    
 Someone is using a robot to collect stars fragments ins the space, why? I have no idea, but you can play it on this link:  
 https://archivesvg.itch.io/star-collector
+
+## Short Gameplay
+https://user-images.githubusercontent.com/81108091/142907390-9bd7be2e-3193-42ee-9b10-cd7d6a34a154.mp4
+
